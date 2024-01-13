@@ -1,0 +1,92 @@
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* for 3D effect perspective ON kar do pixel kuch bho ho usse fark nhi padta hai */
+    perspective: 10px;
+}
+.container{
+    /* positioning should be relative */
+    /* relative isliye liye hai bcz child items ko hume overlap karana hai child items matlab .bckground and .foreground */
+    position: relative;
+    /* used flex bcz text and items ko centre kar paye */
+     display: flex; 
+    justify-content: center;
+    align-items: center;
+    /*container relative positioning hai islye height hum apne hisab se 100% kar liye hai*/
+    height: 100%;
+    /* for 3D transform ye preserve as 3D */
+    transform-style: preserve-3d;
+    /* for overlapping of images we use z-index */
+    z-index: -1;
+}
+/* as flex ki default value row hoti hai isliye abhi image do side me hai */
+.background, .foreground{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.background{
+    /* background image ko dur karna hai to z axis ke along transform karenge */
+    /* image choti ho gyi hogi transform karke isliye islye badi karne ke liye scale ka use karemge */
+    transform: translateZ(-40px) scale(5);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    position: absolute;
+    top: 5rem;
+    font-size: 10rem;
+    letter-spacing: 4px;
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+section{
+    background-color: rgb(45,45,45);
+    color: white;
+    padding: 5rem 0;
+}
+.SecHeading{
+    font-size: 5rem;
+    padding: 0 10rem;
+}
+.bg1{
+    background-image: url(sport-1.jpg);
+}
+.bg2{
+    background-image: url(sport-2.jpg);
+}
+.bg3{
+    background-image: url(sport-3.jpg);
+}
+.text{
+    font-size: 1.5rem;
+    padding: 0 10rem;
+    margin: 5rem;
+}
+/* as text is overlapping with images so we use absolute positioning */
+.bg {
+    position: relative;
+    width: 100%;
+    /* for background image ko vhi fixed karne ke liye using this property */
+    background-attachment: fixed;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+.desc{
+    /* biking, paragliding,...ye sab ko image ke upper overlap karana hai and centre karna hai to overlap karne ke liye absolute positioning use karenge */
+    position: absolute;
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) ;
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
