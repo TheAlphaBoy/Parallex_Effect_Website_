@@ -10,6 +10,6 @@ Key Features:
 4) Optimized Performance: Deliver a fast and efficient user experience with optimized code and resource loading. 
 
 Usage:
-i) Clone the repository to your local machine.
-ii) Customize the content, images, and styling according to your preferences.
-iii) Deploy the website to your preferred hosting platform.
+i) Clone the repository to your local machine. 
+ii) Customize the content, images, and styling according to your preferences.  
+iii) Deploy the website to your preferred hosting platform. 
