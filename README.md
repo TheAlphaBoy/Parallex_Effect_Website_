@@ -4,12 +4,12 @@ This repository contains the source code for a captivating and responsive websit
 
 Key Features:
 
-Parallax Scrolling: Enhance your website's visual appeal with smooth parallax scrolling effects on various sections.
-Responsive Design: Ensure a seamless experience across devices by implementing a responsive design that adapts to different screen sizes.
-Easy Customization: Tailor the website to your needs with easy-to-understand code and customizable settings.
-Optimized Performance: Deliver a fast and efficient user experience with optimized code and resource loading.
-Usage:
+1) Parallax Scrolling: Enhance your website's visual appeal with smooth parallax scrolling effects on various sections. 
+2) Responsive Design: Ensure a seamless experience across devices by implementing a responsive design that adapts to different screen sizes. 
+3) Easy Customization: Tailor the website to your needs with easy-to-understand code and customizable settings. 
+4) Optimized Performance: Deliver a fast and efficient user experience with optimized code and resource loading. 
 
-Clone the repository to your local machine.
-Customize the content, images, and styling according to your preferences.
-Deploy the website to your preferred hosting platform.
+Usage:
+i) Clone the repository to your local machine.
+ii) Customize the content, images, and styling according to your preferences.
+iii) Deploy the website to your preferred hosting platform.
