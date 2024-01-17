@@ -1,4 +1,4 @@
-#Parallax Effect Website
+# Parallax Effect Website
 
 This repository contains the source code for a captivating and responsive website with a parallax scrolling effect. The parallax effect adds depth and dynamism to the user experience, creating an engaging visual journey through the content.
 
